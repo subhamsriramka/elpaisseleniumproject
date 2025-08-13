@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ElPaisAutomationSuite" parallel="methods" thread-count="5">
+    <test name="ElPaisScrapingTest">
+        <classes>
+            <class name="com.elpais.automation.ElPaisAutomationApp"/>
+        </classes>
+    </test>
+</suite> 

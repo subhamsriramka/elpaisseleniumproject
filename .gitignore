@@ -1,0 +1,23 @@
+# Maven target directory
+target/
+
+# Maven build logs
+*.log
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# Mac / Windows OS files
+.DS_Store
+Thumbs.db
+
+# Ignore any manually added libraries folder (optional)
+lib/
+
+# Ignore temporary files
+*.tmp
+*.swp
