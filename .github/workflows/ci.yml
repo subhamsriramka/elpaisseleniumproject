@@ -19,8 +19,3 @@ jobs:
       - name: Build (skip tests)
         run: mvn -B -DskipTests package
         working-directory: ElPaisSeleniumProject/ElPaisSeleniumProject
-
-      - name: Optional smoke run
-        run: java -jar target/elpais-selenium-project-1.0.0.jar
-        working-directory: ElPaisSeleniumProject/ElPaisSeleniumProject
-        continue-on-error: true
